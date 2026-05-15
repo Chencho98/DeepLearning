@@ -1,5 +1,8 @@
 # Proyecto CVAE HAM10000
 
+Hugging Face Demo:
+https://huggingface.co/spaces/Chencho98/DeepLearning
+
 ## Cómo correrlo en Colab
 
 
