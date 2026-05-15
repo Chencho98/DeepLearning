@@ -2,11 +2,19 @@
 
 ## Cómo correrlo en Colab
 
-1. Sube `balanced_image.zip` a tu Google Drive en `MyDrive/`.
-2. Abre `deepLearning.ipynb` en Colab.
-3. Ejecuta las celdas en orden.
-4. Por defecto `RUN_TRAINING = False`, así el notebook carga el checkpoint ya guardado en Drive y genera una demo.
-5. Si quieres reentrenar desde cero, cambia `RUN_TRAINING = True`.
+
+1. Abre `deepLearning.ipynb` en Google Colab.
+2. Monta Google Drive cuando el notebook lo solicite.
+3. Descarga el dataset desde el siguiente link compartido de Google Drive:
+
+  https://drive.google.com/file/d/1gbZqsRYmzb-dfARSBqCnTP8aDU6aby5v/view?usp=drivesdk
+
+4. Guarda `balanced_image.zip` dentro de:
+   
+   `/content/drive/MyDrive/`
+
+6. Por defecto `RUN_TRAINING = False`, así el notebook carga el checkpoint ya guardado en Drive y genera una demo.
+7. Si quieres reentrenar desde cero, cambia `RUN_TRAINING = True`.
 
 ## Estructura
 
